@@ -97,7 +97,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/my-app-ng18/",
+            "repo": "https://github.com/l7960261/my-app-ng18.git"
+          }
         }
       }
     }
